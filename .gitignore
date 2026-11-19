@@ -1,0 +1,44 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Build files
+build/
+dist/
+
+# Logs
+*.log
+logs/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local databases and temporary files
+*.sqlite
+*.db
+temp/
+tmp/
+
+# Downloaded ML models and generated data
+# Downloaded ML models and generated data
+/models/
+/model_cache/
+uploads/
